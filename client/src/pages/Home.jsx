@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const URL = 'http://localhost:8000/api/product';
+        const URL = 'https://user-authentication-mern-vk5q.onrender.com/api/product';
         const headers = {
           headers: {
             "Authorization": localStorage.getItem('token')

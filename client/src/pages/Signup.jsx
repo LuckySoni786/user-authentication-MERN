@@ -31,7 +31,7 @@ const Signup = () => {
       return handleError("name, email and password are required")
     }
     try {
-      const URL = 'http://localhost:8000/api/user/register '
+      const URL = 'https://user-authentication-mern-vk5q.onrender.com/api/user/register '
       const response = await fetch(URL, {
         method: "POST",
         headers: {

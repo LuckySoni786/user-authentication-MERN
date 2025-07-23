@@ -33,7 +33,7 @@ const Login = () => {
       return handleError("email and password are required")
     }
     try {
-      const URL = 'http://localhost:8000/api/user/login '
+      const URL = 'https://user-authentication-mern-vk5q.onrender.com/api/user/login '
       const response = await fetch(URL, {
         method: "POST",
         headers: {
