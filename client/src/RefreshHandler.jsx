@@ -21,4 +21,4 @@ const RefreshHandler = ({ setIsAuthenticate }) => {
     )
 }
 
-export default RefreshHandler
+export default RefreshHandler;

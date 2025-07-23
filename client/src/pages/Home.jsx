@@ -53,7 +53,7 @@ const Home = () => {
             <p className="text-gray-600">{val.name}</p>
             <p className="mt-2 text-red-600 font-bold">₹ {val.price}</p>
             <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-              Buy Now
+              Buy Now this
             </button>
           </div>
         })}
